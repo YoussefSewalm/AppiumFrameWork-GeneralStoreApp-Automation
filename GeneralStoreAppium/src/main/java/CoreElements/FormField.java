@@ -10,13 +10,12 @@ public class FormField  {
 	public static AndroidDriver driver;
 	By elementLocator;
 	
-	public static void SetDriver(AndroidDriver driver1) //3mllto set driver lwa7do brdo 3shan dh msh 3aml extend ll Elements 
-	//f lazem yb2a m3ahom nafs l driver 2ly et3ml fl initiate
+	public static void SetDriver(AndroidDriver driver1) 
 	{
 		driver=driver1;
 	}
 	
-	public FormField(By Locator) //3mltlo Constructor leh lwa7do 3shan dh msh 3amlo extend mn Elements
+	public FormField(By Locator) 
 	{
 		elementLocator=Locator;
 	}
