@@ -14,14 +14,7 @@ public class L1_ProductsPage {
 	public static By CartItemsCounterText=By.xpath("//android.widget.TextView[@resource-id='com.androidsample.generalstore:id/counterText']");
 	public static By AddToCartUtility=By.xpath("//android.widget.TextView[@resource-id='com.androidsample.generalstore:id/productAddCart']");
 	//Buttons
-	public static By AddToCartProductButton=By.xpath("//android.widget.TextView[@resource-id='com.androidsample.generalstore:id/productAddCart']");
-	// ana hena 3andy moshklela fl add to cart ana 7aletha mn 5elal any grabt awl mrh w 3reft l scrolling byo2af l7ad fen 
-	//bl zabt w mn 5lalha 3reft ageb l index bta3 l add to cart l kol item mn l 2 , bs dh msh 7al dynamic l2n
-	//law grbto 3ala mobile shashto atwal shewia l index dh hyt3`yr,,,,w bl taly e7na hn7l l mawdo3 dh 
-	//b shakl more dynamic aktar w dh mn 5lelal l ID bta3 kol product lma awslo bl scroll ha5od l ID dh
-	//w mno hdos 3al add to cart 2ly 3ndo nafs l ID dh ayan kan hwa fen 3shan keda hn3ml func w msh hn7ded index 5als fl add to cart
-	//w bl taly hnktafy b xpath wa7ed bs
-	
+	public static By AddToCartProductButton=By.xpath("//android.widget.TextView[@resource-id='com.androidsample.generalstore:id/productAddCart']");	
 	//Links
 	public static By CartPageLink=By.xpath("//android.widget.ImageButton[@resource-id='com.androidsample.generalstore:id/appbar_btn_cart']");
 }
