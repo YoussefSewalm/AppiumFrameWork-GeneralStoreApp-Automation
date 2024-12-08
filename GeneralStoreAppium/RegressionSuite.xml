@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegressionSuite">
+<groups>
+<run>
+<include name="Regression"/>
+</run>
+</groups>
+<listeners>
+<listener class-name="Listeners.TestListener"/>
+</listeners>
+<test thread-count="5" name="ProductDetailTest">
+    <classes>
+      <class name="GeneralStoreTests.ProductsPage"/>
+     </classes>
+     </test>
+       <test thread-count="5" name="ValidHomePage">
+    <classes>
+    <class name="GeneralStoreTests.ValidHomePageInfo"/>
+     </classes>
+     </test>
+       <test thread-count="5" name="InValidHomePage">
+     <classes>
+    <class name="GeneralStoreTests.InValidHomePageInfo"/>
+     </classes>
+     </test>
+</suite> <!-- Suite -->
