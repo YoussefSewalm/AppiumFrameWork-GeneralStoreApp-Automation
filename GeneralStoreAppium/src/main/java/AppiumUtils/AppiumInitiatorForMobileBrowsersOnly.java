@@ -29,15 +29,6 @@ public class AppiumInitiatorForMobileBrowsersOnly extends StartAppiumServer {
 
 	public static void DriverInitiator() throws MalformedURLException, URISyntaxException, IOException
 	{
-		//To Automate Opening Appium Server (For Mobile Browser Apps Only) From Eclipse	
-		//Hena l configuration ll Mobile Browser BAS ya3ny afta7 Chrome msln mn 3al Mobile
-		//3shan keda kol l code fl 7alah deh hyb2a SELENIUM msh Appium w kman locate l elements mn 3al Web
-		//3an tare2 eny hgeb l responsive view mobile mn l Inspect f Chrome mn 3al PC 3ady w b3d keda a locate
-		//w bl taly hena ll AppiumInsepector mlosh ay lazma (3shan dh ll Native bs )
-		
-		//Hena kol COnfig zy l native wl hybird l far2 eny w ana bfta7 cmd 3shan a run appium hktb keda "appium --allow-insecure chromedriver_autodownload"
-		//3shan a5ly appium y3ml auto locate ll chrome driver
-		//w lazem a7ot setCapability("broswerName","Chrome")
 		Properties properties = new Properties();
 	    FileInputStream file_1=new FileInputStream(System.getProperty("user.dir") + "src//main//java//resources//DriverData.properties");
 	    properties.load(file_1);
