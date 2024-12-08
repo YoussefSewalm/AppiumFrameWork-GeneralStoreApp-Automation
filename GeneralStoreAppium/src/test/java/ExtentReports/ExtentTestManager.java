@@ -35,9 +35,7 @@ public class ExtentTestManager {
 		File source = driver.getScreenshotAs(OutputType.FILE);
 		String destinationFile = System.getProperty("user.dir")+"//reports"+testCaseName+".png";
 		FileUtils.copyFile(source, new File(destinationFile));
-		return destinationFile;
-		//1. capture and place in folder //2. extent report pick file and attach to report		
-		
+		return destinationFile;		
 	}
 	
 }
